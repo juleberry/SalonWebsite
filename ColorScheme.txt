@@ -1,0 +1,13 @@
+Main Green: #93AD66
+Almost Black: #132400
+Green Highlight: #90AA63
+Darker Green: #415B19
+Darkest Green: #294300
+
+Pink: #DE68CB
+Darker Pink: #825279
+Lightest Pink: #FFE6FF
+Bold Green: #00523F
+
+Pale Green: #C8FCEB
+Dark Pale Green: #508072

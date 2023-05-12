@@ -1,0 +1,14 @@
+.header-image {
+  background: url("https://images.pexels.com/photos/1373747/pexels-photo-1373747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat center center;
+  background-size: cover;
+  height: 900px;
+  position:relative;
+  bottom:20px;
+  
+  }
+
+  .main {
+    position: relative;
+    top: 100px;
+    text-align: center;
+  }
