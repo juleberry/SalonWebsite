@@ -1,0 +1,49 @@
+{
+  "staff": [
+    {
+      "id": 1,
+      "title": "Nail Technician",
+      "first_name": "Jule",
+      "last_name": "Berry",
+      "availability": "Full-Time",
+      "yrs_of_service": "6",
+      "hobbies": "bowling, art, music"
+    },
+    {
+      "id": 2,
+      "title": "Nail Technician",
+      "first_name": "Amy",
+      "last_name": "Test",
+      "availability": "Full-Time",
+      "yrs_of_service": "3",
+      "hobbies": "movies, reading, traveling"
+    },
+    {
+      "id": 3,
+      "title": "Receptionist",
+      "first_name": "Laura",
+      "last_name": "Faux",
+      "availability": "Part-Time",
+      "yrs_of_service": "2",
+      "hobbies": "music, animals, hiking"
+    },
+    {
+      "id": 4,
+      "title": "Nail Technician",
+      "first_name": "Tim",
+      "last_name": "After",
+      "availability": "Full-Time",
+      "yrs_of_service": "5",
+      "hobbies": "drawing, video games, animals"
+    },
+    {
+      "id": 5,
+      "title": "Nail Technician",
+      "first_name": "Kim",
+      "last_name": "Possibly",
+      "availability": "Part-Time",
+      "yrs_of_service": "2",
+      "hobbies": "movies, reading, axe-throwing"
+    }
+  ]
+}
