@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .headerImage {
   background: url("https://images.pexels.com/photos/1373747/pexels-photo-1373747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat center center;
   background-size: cover;
@@ -5,6 +9,27 @@
   position:relative;  
   }
 
-  .main {
+.main {
     position: relative;
     }
+
+#navMenu {
+  background-color: aquamarine;
+  padding: 1rem;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.menu a{
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: white;
+}

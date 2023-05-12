@@ -5,7 +5,9 @@ function getContent(fragmentId, callback) {
     services: "services.html",
     gallery: "gallery.html",
     hours: "hours.html",
-    contact: "contact.html"
+    contact: "contact.html",
+    schedule: "schedule.html",
+    staff: "staff.html"
   };
 
   fetch(pages[fragmentId])
