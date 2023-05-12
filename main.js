@@ -1,34 +1,36 @@
-function getContent(fragmentId, callback){
-
+function getContent(fragmentId, callback) {
   let pages = {
-    home: "Home page. Welcome to my site.",
-    about: "Describes the site",
-    services: "Page of salon services",
-    gallery: "Gallery page",
-    hours: "Salon Hours page",
-    contact: "Contact the salon on this page if you have any questions."
+    home: "home.html",
+    about: "about.html",
+    services: "services.html",
+    gallery: "gallery.html",
+    hours: "hours.html",
+    contact: "contact.html"
   };
 
-  callback(pages[fragmentId]);
+  fetch(pages[fragmentId])
+    .then(response => response.text())
+    .then(data => {
+      callback(data);
+    })
+    .catch(error => {
+      console.log(error);
+    });
 }
 
-
-
-function loadContent(){
-
-  let contentDiv = document.getElementById("app"),
-      fragmentId = location.hash.substr(1);
+function loadContent() {
+  let contentDiv = document.getElementById("app");
+  let fragmentId = location.hash.substr(1);
 
   getContent(fragmentId, function (content) {
     contentDiv.innerHTML = content;
   });
-
 }
 
-if(!location.hash) {
+if (!location.hash) {
   location.hash = "#home";
 }
 
 loadContent();
 
-window.addEventListener("hashchange", loadContent)
+window.addEventListener("hashchange", loadContent);
