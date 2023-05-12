@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "Nail Technician",
+      "img": "",
       "first_name": "Jule",
       "last_name": "Berry",
       "availability": "Full-Time",
@@ -12,6 +13,7 @@
     {
       "id": 2,
       "title": "Nail Technician",
+      "img": "",
       "first_name": "Amy",
       "last_name": "Test",
       "availability": "Full-Time",
@@ -21,6 +23,7 @@
     {
       "id": 3,
       "title": "Receptionist",
+      "img": "",
       "first_name": "Laura",
       "last_name": "Faux",
       "availability": "Part-Time",
@@ -30,6 +33,7 @@
     {
       "id": 4,
       "title": "Nail Technician",
+      "img": "",
       "first_name": "Tim",
       "last_name": "After",
       "availability": "Full-Time",
@@ -39,6 +43,7 @@
     {
       "id": 5,
       "title": "Nail Technician",
+      "img": "",
       "first_name": "Kim",
       "last_name": "Possibly",
       "availability": "Part-Time",
