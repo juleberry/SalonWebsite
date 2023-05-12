@@ -19,7 +19,7 @@ body {
     }
 
 #navMenu {
-  background-color: aquamarine;
+  background-color: #294300;
   padding: 1rem;
 }
 
@@ -33,6 +33,7 @@ body {
 
 .menu a{
   text-decoration: none;
+  color: #93AD66;
 }
 
 .menu a:hover {
@@ -68,4 +69,19 @@ body {
   font-size: 1.25rem;
   text-align: center;
   font-style: italic;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+  color: #508072;
+  background-color: #294300;
+}
+
+.footerNav {
+text-decoration: none;
+list-style-type: none;
 }
