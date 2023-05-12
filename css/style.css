@@ -2,11 +2,16 @@ body {
   margin: 0;
   padding: 0;
 }
+
+#app {
+  padding: 1rem;
+}
+
 .headerImage {
   background: url("https://images.pexels.com/photos/1373747/pexels-photo-1373747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat center center;
   background-size: cover;
   height: 200px;
-  position:relative;  
+  position:relative; 
   }
 
 .main {
@@ -32,4 +37,35 @@ body {
 
 .menu a:hover {
   color: white;
+}
+
+#bookNow {
+  font-weight: bold;
+}
+
+.mainTitle {
+  text-align: center;
+}
+
+.days {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.hrs {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#hoursOfOper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#hrsText {
+  font-size: 1.25rem;
+  text-align: center;
+  font-style: italic;
 }
