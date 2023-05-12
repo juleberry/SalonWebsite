@@ -8,7 +8,7 @@
       "last_name": "Berry",
       "availability": "Full-Time",
       "yrs_of_service": "6",
-      "hobbies": "bowling, art, music"
+      "hobbies": "bowling, art, and music"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "last_name": "Test",
       "availability": "Full-Time",
       "yrs_of_service": "3",
-      "hobbies": "movies, reading, traveling"
+      "hobbies": "movies, reading, and traveling"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "last_name": "Faux",
       "availability": "Part-Time",
       "yrs_of_service": "2",
-      "hobbies": "music, animals, hiking"
+      "hobbies": "music, animals, and hiking"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "last_name": "After",
       "availability": "Full-Time",
       "yrs_of_service": "5",
-      "hobbies": "drawing, video games, animals"
+      "hobbies": "drawing, video games, and animals"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "last_name": "Possibly",
       "availability": "Part-Time",
       "yrs_of_service": "2",
-      "hobbies": "movies, reading, axe-throwing"
+      "hobbies": "movies, reading, and axe-throwing"
     }
   ]
 }

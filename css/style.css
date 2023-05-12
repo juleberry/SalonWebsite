@@ -1,14 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,600;1,100;1,900&display=swap');
+
 body {
   margin: 0;
   padding: 0;
+  background-color: #FFE6FF;
+  color: #132400;
+  font-family: 'Raleway', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #app {
   padding: 1rem;
 }
 
+#zenSpaLogo {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#logo {
+  position: relative;
+  top: 1rem;
+  text-align: center;
+  z-index: 1;
+}
 .headerImage {
-  background: url("https://images.pexels.com/photos/1373747/pexels-photo-1373747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat center center;
+  background: url("https://live.staticflickr.com/65535/52893312608_31e4d9785d_o.jpg") no-repeat center center;
   background-size: cover;
   height: 200px;
   position:relative; 
@@ -20,13 +36,14 @@ body {
 
 #navMenu {
   background-color: #294300;
-  padding: 1rem;
+  padding: .25rem;
 }
 
 .navigation {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
   list-style-type: none;
   text-decoration: none;
 }
@@ -42,6 +59,21 @@ body {
 
 #bookNow {
   font-weight: bold;
+  color: #415B19;
+  background-color: #93AD66;
+  height: 2rem;
+  border-radius: 10px;
+  border-color: #C8FCEB;
+  border-bottom-color: white;
+}
+
+#bookNow:hover {
+  color: white;
+  background-color: #DE68CB;
+}
+
+#bookNow:active {
+  background-color: #825279;
 }
 
 .mainTitle {
