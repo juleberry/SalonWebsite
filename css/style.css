@@ -5,14 +5,14 @@ body {
   padding: 0;
   background-color: #FFE6FF;
   color: #132400;
-  font-family: 'Raleway', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Raleway', Impact, 'Arial Narrow Bold', sans-serif;
 }
 
 #app {
   padding: 1rem;
 }
 
-#zenSpaLogo {
+#zenSalonLogo {
   width: 150px;
   border-radius: 50%;
 }
@@ -80,6 +80,21 @@ body {
   text-align: center;
 }
 
+#serviceCardContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.serviceCard {
+  background-color: #508072;
+  padding: 1rem;
+  border-radius: 5%;
+  width: 250px;
+  text-align: center;
+}
+
 .days {
   text-transform: capitalize;
   font-weight: bold;
@@ -98,19 +113,34 @@ body {
 }
 
 #hrsText {
-  font-size: 1.25rem;
+  font-weight: bold;
   text-align: center;
   font-style: italic;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.fa-facebook {
+  width: 3rem;
+}
+
+.fa-instagram {
+  width: 3rem;
 }
 
 footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: .5rem;
   color: #508072;
   background-color: #294300;
+}
+
+#smallLogo {
+  width: 75px;
+  border-radius: 50%;
 }
 
 .footerNav {
